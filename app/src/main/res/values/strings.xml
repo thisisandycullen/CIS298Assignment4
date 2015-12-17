@@ -4,6 +4,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="select_contact_button">SELECT CONTACT</string>
+    <string name="send_beverage_details_button">SEND BEVERAGE DETAILS</string>
+
     <string name="beverage_id">Id:</string>
     <string name="beverage_name">Name</string>
     <string name="beverage_pack">Pack:</string>

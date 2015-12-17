@@ -1,3 +1,7 @@
+//ANDY CULLEN
+//ASSIGNMENT 4
+//DUE 12/16/15
+
 package edu.kvcc.cis298.cis298assignment4;
 
 import android.content.Context;
@@ -43,7 +47,7 @@ public class BeveragePagerActivity extends FragmentActivity {
         mViewPager = (ViewPager) findViewById(R.id.activity_beverage_pager_view_pager);
 
         //Get the beverages from the beverage collection
-        mBeverages = BeverageCollection.get(this).getBeverages();
+        mBeverages = BeverageCollection.get().getBeverages();
 
         //Create a fragment manager that the view pager adapter needs to operate
         FragmentManager fragmentManager = getSupportFragmentManager();

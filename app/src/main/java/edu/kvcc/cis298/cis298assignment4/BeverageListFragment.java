@@ -1,3 +1,7 @@
+//ANDY CULLEN
+//ASSIGNMENT 4
+//DUE 12/16/15
+
 package edu.kvcc.cis298.cis298assignment4;
 
 import android.content.Intent;
@@ -51,9 +55,9 @@ public class BeverageListFragment extends Fragment {
 
     //Method to setup the view with an adapter if it doesn't already have one.
     //and update changes if it does.
-    private void updateUI() {
+    public void updateUI() {
         //Get the collection of data.
-        BeverageCollection beverageCollection = BeverageCollection.get(getActivity());
+        BeverageCollection beverageCollection = BeverageCollection.get();
         //Fetch the list of data from the collection
         List<Beverage> beverages = beverageCollection.getBeverages();
 
