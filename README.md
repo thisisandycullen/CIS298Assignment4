@@ -1,8 +1,6 @@
 # Assignment 4 - Add Implicit Intents and HTTP data loading to Beverage app.
 
-## Author
-
-
+## Author - Andy Cullen
 
 ## Description
 
@@ -70,11 +68,16 @@ The application must do all of the above work to get the extra credit. In order 
 
 ## Outside Resources Used
 
+InClass projects
+
+Android Programming: The Big Nerd Ranch Guide, Second Edition
+
+Rob's in-class presentation on Progress Dialogs. (Examples are also in our Team Project)
 
 
 ## Known Problems, Issues, And/Or Errors in the Program
 
-
+Finally works!
 
 # Original Assignment README
 
